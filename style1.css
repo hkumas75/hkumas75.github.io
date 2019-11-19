@@ -29,24 +29,24 @@ body{
     #logi{
        position: absolute;
        width:6%;
-       top: 300px;
-       left:25px;
+       top: 36%;
+       left:1%;
        border-radius:50%;
        overflow: hidden
     }
    #logi1{
        position: absolute;
        width:8%;
-       top: 60px;
-       right: 20px;
+       top: 10%;
+       right: 1%;
        border-radius:50%;
     }
     #logi2{
        position: absolute;
        width:25%;
        height:25%;
-       top: 75px;
-       left: 25px;
+       top: 10%;
+       left: 1%;
        border-radius:0%;
        overflow: hidden;
     }
@@ -121,14 +121,14 @@ body{
 
     .card-container {
         display: inline-block;
-        height: 220px;
+        height: 35%;
         width: 100%;
 
         overflow: hidden;
       }
       .inburgeren-card {
           display: inline-block;
-          height: 215px;
+          height: max-content;
           background-color: rgba(0, 025, 0, 0.1);
           text-align:center;
           overflow: hidden;
@@ -140,6 +140,16 @@ body{
 
           text-align:center;
           overflow: hidden;
+        }
+
+        @media screen and (min-width: 1500px) {
+          .inburgeren-card__image {
+              display: inline-block;
+              height: 250px;
+              width: auto;
+              text-align:center;
+              overflow: hidden;
+            }
         }
 
     .myButtonInb {
