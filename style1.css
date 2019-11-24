@@ -142,7 +142,7 @@ body{
           overflow: hidden;
         }
 
-        @media screen and (min-width: 1500px) {
+        @media screen and (min-width: 1700px) {
           .inburgeren-card__image {
               display: inline-block;
               height: 250px;
